@@ -1,0 +1,512 @@
+\documentclass{article}
+
+\usepackage{arxiv}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{appendix}
+
+\title{Analysis of Nocturnal Blood Oxygen Saturation Patterns: \\ A 31-Day Sleep Study}
+
+\renewcommand{\shorttitle}{Sleep SpO2 Analysis}
+
+\hypersetup{
+pdftitle={Analysis of Nocturnal Blood Oxygen Saturation Patterns: A 31-Day Sleep Study},
+pdfsubject={Sleep Medicine, Blood Oxygen Analysis},
+pdfkeywords={Sleep apnea, SpO2, Blood oxygen, Sleep stages}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This report presents findings from a comprehensive 31-day sleep study analyzing nocturnal blood oxygen saturation (SpO2) patterns. The study monitored SpO2 levels during sleep, with particular focus on desaturation events below 90\%. Analysis revealed 60 low SpO2 events across the study period, with an average minimum SpO2 of 86.4\% per event. The most severe desaturation reached 75.0\%, with an average event duration of 7 minutes 20 seconds and individual event durations ranging from 3 to 31 minutes. The study provides insights into sleep-related breathing patterns and potential sleep-disordered breathing episodes across different sleep stages.
+\end{abstract}
+
+\keywords{Sleep analysis \and Blood oxygen saturation \and SpO2 monitoring \and Sleep stages}
+
+\section{Introduction}
+Sleep-disordered breathing can significantly impact health and sleep quality. Continuous monitoring of blood oxygen saturation (SpO2) during sleep provides valuable insights into respiratory patterns and potential breathing disruptions. This study presents a detailed analysis of nocturnal SpO2 patterns over a 31-day period, examining the frequency, severity, and characteristics of desaturation events.
+
+\section{Results}
+\subsection{Overall Findings}
+The study identified 60 low SpO2 events across the 31-day period. Key findings include:
+\begin{itemize}
+    \item Average minimum SpO2 per event: 86.4\%
+    \item Lowest recorded SpO2: 75.0\%
+    \item Average event duration: 7 minutes 20 seconds
+    \item Maximum event duration: 31 minutes
+    \item Average Baseline SpO2 (outside events): 94.3\%
+    \item Total Time in Deep Sleep: 40:59:00
+    \item Total Time in Light Sleep: 138:57:37
+    \item Total Time in REM Sleep: 41:21:24
+    \item Total Time Awake: 08:31:00
+    \item Total Sleep Time (Deep, Light, REM): 221:18:01
+    \item Total Time in Bed: 728:16:18
+    \item Sleep Efficiency: 30.4\%
+    \item Oxygen Desaturation Index (ODI, desaturation $\ge$ 4\%): 0.2 events/hour
+    \item Event Frequency by Sleep Stage:
+    \begin{itemize}
+        \item Deep Sleep: 9 events, Rate: 0.22 events/hour
+        \item Light Sleep: 41 events, Rate: 0.30 events/hour
+        \item REM Sleep: 8 events, Rate: 0.19 events/hour
+        \item Awake Sleep: 2 events, Rate: 0.23 events/hour
+    \end{itemize}
+    \item Average Heart Rate (HR) change during event (vs. pre-event): -0.2 bpm
+    \item Average HR change after event (vs. during event): -0.3 bpm
+    \item Average Inter-Event Interval (on nights with $>$1 event): 00:38:29
+    \item Percentage of Low SpO2 Events with Potential Respiratory Pauses: 0.0\%
+\end{itemize}
+
+% --- Begin Insert: SpO2 Averages ---
+\subsection{Average SpO2 Across All Data}
+In addition to event-based and baseline SpO2 statistics, we calculated the average SpO2 across all valid readings, as well as specifically during sleep and awake periods:
+\begin{itemize}
+    \item \textbf{Average SpO2 (All Valid Readings):} 94.1\%
+    \item \textbf{Average SpO2 (During Sleep Periods):} 94.1\%
+    \item \textbf{Average SpO2 (During Awake Periods):} 94.5\%
+\end{itemize}
+% --- End Insert: SpO2 Averages ---
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/_overall_min_spo2_distribution.png}
+    \caption{Distribution of minimum SpO2 values across all events}
+    \label{fig:spo2_dist}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/_overall_event_duration_distribution.png}
+    \caption{Distribution of event durations}
+    \label{fig:duration_dist}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/_overall_events_by_hour.png}
+    \caption{Distribution of events by hour of the day}
+    \label{fig:hourly_dist}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/_temporal_event_counts.png}
+    \caption{Temporal Trend of Daily Event Counts Over the Study Period}
+    \label{fig:temporal_counts}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/_temporal_avg_min_spo2.png}
+    \caption{Temporal Trend of Daily Average Minimum SpO2 in Events Over the Study Period}
+    \label{fig:temporal_avg_spo2}
+\end{figure}
+
+\subsection{Notable Events}
+The most significant desaturation event in terms of severity occurred on May 13, 2025 (GMT), during REM sleep:
+\begin{itemize}
+    \item Duration: 17 minutes (23:28-23:45 GMT)
+    \item Minimum SpO2: 75.0\%
+    \item Average SpO2: 82.9\%
+\end{itemize}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-14_event_2.png}
+    \caption{Most severe desaturation event (May 13, 23:28-23:45 GMT)}
+    \label{fig:severe_event}
+\end{figure}
+
+Another notable event was the longest observed desaturation, which occurred on the night of April 23, 2025 (GMT), during Light sleep:
+\begin{itemize}
+    \item Duration: 31 minutes (23:44 Apr 23 - 00:15 Apr 24 GMT)
+    \item Minimum SpO2: 86.0\%
+    \item Average SpO2: 86.9\%
+\end{itemize}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-24_event_1.png}
+    \caption{Longest desaturation event (April 23, 23:44 - April 24, 00:15 GMT)}
+    \label{fig:longest_event}
+\end{figure}
+
+\section{Discussion}
+The analysis reveals several patterns of interest:
+
+\begin{enumerate}
+    \item Clustering of events: Some nights showed multiple events in close succession, particularly evident in the temporal distribution (Figure \ref{fig:hourly_dist} and Figure \ref{fig:temporal_counts})
+    \item Sleep stage correlation: More frequent events during light sleep phases
+    \item Severity variation: Most events were mild (SpO2 85-89\%), as shown in Figure \ref{fig:spo2_dist}, with few severe events (SpO2 < 80\%)
+\end{enumerate}
+
+The presence of multiple extended desaturation events, particularly during REM sleep, suggests potential sleep-disordered breathing patterns that merit further investigation. The observed pattern of desaturation events, especially the severe event shown in Figure \ref{fig:severe_event}, is consistent with patterns typically seen in sleep-disordered breathing.
+
+\section{Conclusion}
+This 31-day study provides valuable insights into nocturnal SpO2 patterns. While most desaturation events were mild, the presence of some severe events, particularly during REM sleep, indicates the need for further clinical evaluation. The findings demonstrate the value of continuous SpO2 monitoring in identifying potential sleep-related breathing disorders.
+
+\appendix
+\section{Complete Event Plots}
+This appendix contains all SpO2 desaturation events detected during the study period, organized chronologically.
+
+\subsection{April 20, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-20_event_1.png}
+    \caption{Event 1 - April 20, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-20_event_2.png}
+    \caption{Event 2 - April 20, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-20_event_3.png}
+    \caption{Event 3 - April 20, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-20_event_4.png}
+    \caption{Event 4 - April 20, 2025}
+\end{figure}
+\clearpage
+
+\subsection{April 21, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-21_event_1.png}
+    \caption{Event 1 - April 21, 2025}
+\end{figure}
+\clearpage
+
+\subsection{April 22, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-22_event_1.png}
+    \caption{Event 1 - April 22, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-22_event_2.png}
+    \caption{Event 2 - April 22, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-22_event_3.png}
+    \caption{Event 3 - April 22, 2025}
+\end{figure}
+\clearpage
+
+\subsection{April 23, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-23_event_1.png}
+    \caption{Event 1 - April 23, 2025}
+\end{figure}
+\clearpage
+
+\subsection{April 24, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-24_event_1.png}
+    \caption{Event 1 - April 24, 2025}
+\end{figure}
+\clearpage
+
+\subsection{April 25, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-25_event_1.png}
+    \caption{Event 1 - April 25, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-25_event_2.png}
+    \caption{Event 2 - April 25, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-25_event_3.png}
+    \caption{Event 3 - April 25, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-25_event_4.png}
+    \caption{Event 4 - April 25, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-25_event_5.png}
+    \caption{Event 5 - April 25, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-25_event_6.png}
+    \caption{Event 6 - April 25, 2025}
+\end{figure}
+\clearpage
+
+\subsection{April 26, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-26_event_1.png}
+    \caption{Event 1 - April 26, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-26_event_2.png}
+    \caption{Event 2 - April 26, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-26_event_3.png}
+    \caption{Event 3 - April 26, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-26_event_4.png}
+    \caption{Event 4 - April 26, 2025}
+\end{figure}
+\clearpage
+
+\subsection{April 27, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-27_event_1.png}
+    \caption{Event 1 - April 27, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-27_event_2.png}
+    \caption{Event 2 - April 27, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-27_event_3.png}
+    \caption{Event 3 - April 27, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-27_event_4.png}
+    \caption{Event 4 - April 27, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-27_event_5.png}
+    \caption{Event 5 - April 27, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-27_event_6.png}
+    \caption{Event 6 - April 27, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-27_event_7.png}
+    \caption{Event 7 - April 27, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-27_event_8.png}
+    \caption{Event 8 - April 27, 2025}
+\end{figure}
+\clearpage
+
+\subsection{April 30, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-30_event_1.png}
+    \caption{Event 1 - April 30, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-04-30_event_2.png}
+    \caption{Event 2 - April 30, 2025}
+\end{figure}
+\clearpage
+
+\subsection{May 4, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-04_event_1.png}
+    \caption{Event 1 - May 4, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-04_event_2.png}
+    \caption{Event 2 - May 4, 2025}
+\end{figure}
+\clearpage
+
+\subsection{May 6, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-06_event_1.png}
+    \caption{Event 1 - May 6, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-06_event_2.png}
+    \caption{Event 2 - May 6, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-06_event_3.png}
+    \caption{Event 3 - May 6, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-06_event_4.png}
+    \caption{Event 4 - May 6, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-06_event_5.png}
+    \caption{Event 5 - May 6, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-06_event_6.png}
+    \caption{Event 6 - May 6, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-06_event_7.png}
+    \caption{Event 7 - May 6, 2025}
+\end{figure}
+\clearpage
+
+\subsection{May 7, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-07_event_1.png}
+    \caption{Event 1 - May 7, 2025}
+\end{figure}
+\clearpage
+
+\subsection{May 8, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-08_event_1.png}
+    \caption{Event 1 - May 8, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-08_event_2.png}
+    \caption{Event 2 - May 8, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-08_event_3.png}
+    \caption{Event 3 - May 8, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-08_event_4.png}
+    \caption{Event 4 - May 8, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-08_event_5.png}
+    \caption{Event 5 - May 8, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-08_event_6.png}
+    \caption{Event 6 - May 8, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-08_event_7.png}
+    \caption{Event 7 - May 8, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-08_event_8.png}
+    \caption{Event 8 - May 8, 2025}
+\end{figure}
+\clearpage
+
+\subsection{May 9, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-09_event_1.png}
+    \caption{Event 1 - May 9, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-09_event_2.png}
+    \caption{Event 2 - May 9, 2025}
+\end{figure}
+\clearpage
+
+\subsection{May 10, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-10_event_1.png}
+    \caption{Event 1 - May 10, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-10_event_2.png}
+    \caption{Event 2 - May 10, 2025}
+\end{figure}
+\clearpage
+
+\subsection{May 11, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-11_event_1.png}
+    \caption{Event 1 - May 11, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-11_event_2.png}
+    \caption{Event 2 - May 11, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-11_event_3.png}
+    \caption{Event 3 - May 11, 2025}
+\end{figure}
+\clearpage
+
+\subsection{May 14, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-14_event_1.png}
+    \caption{Event 1 - May 14, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-14_event_2.png}
+    \caption{Event 2 - May 14, 2025}
+\end{figure}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-14_event_3.png}
+    \caption{Event 3 - May 14, 2025}
+\end{figure}
+\clearpage
+
+\subsection{May 15, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-15_event_1.png}
+    \caption{Event 1 - May 15, 2025}
+\end{figure}
+\clearpage
+
+\subsection{May 19, 2025}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/2025-05-19_event_1.png}
+    \caption{Event 1 - May 19, 2025}
+\end{figure}
+\clearpage
+
+\end{document}
