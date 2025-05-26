@@ -1,0 +1,43 @@
+COMPLETE ENHANCED SLEEP APNEA ANALYSIS REPORT
+============================================================
+
+STUDY OVERVIEW:
+Analysis Period: 31 nights
+Total Sleep Time: 198.3 hours
+Total Events Detected: 226
+Overall Event Rate: 1.14 events/hour
+
+AHI ANALYSIS:
+Average AHI: 1.0 events/hour
+Median AHI: 0.9 events/hour
+Maximum AHI: 4.0 events/hour
+Standard Deviation: 1.0
+
+AHI CLASSIFICATION DISTRIBUTION:
+Normal: 31 nights (100.0%)
+
+EVENT SEVERITY DISTRIBUTION:
+Mild: 219 events (96.9%)
+Moderate: 6 events (2.7%)
+Severe: 1 events (0.4%)
+
+SPO2 STATISTICS:
+Average Minimum SpO2: 87.8%
+Lowest SpO2 Recorded: 75.0%
+SpO2 Standard Deviation: 1.6%
+
+EVENT DURATION STATISTICS:
+Average Duration: 2.8 minutes
+Median Duration: 1.0 minutes
+Maximum Duration: 31.0 minutes
+Duration Standard Deviation: 4.1 minutes
+
+SLEEP ARCHITECTURE:
+Average Sleep Efficiency: 80.7%
+Average Deep Sleep: 15.3%
+Average REM Sleep: 15.2%
+
+CLINICAL ASSESSMENT:
+Sleep breathing patterns appear normal.
+
+Analysis completed. Dashboard saved to: complete_enhanced_output/enhanced_plots/comprehensive_dashboard.png

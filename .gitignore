@@ -133,7 +133,3 @@ Thumbs.db
 
 # Log files
 *.log
-
-# Output directories
-complete_enhanced_output/
-sleep_analysis_output/
