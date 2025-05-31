@@ -133,3 +133,6 @@ Thumbs.db
 
 # Log files
 *.log
+
+# Data/archive folder
+data/archive/

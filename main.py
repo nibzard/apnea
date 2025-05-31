@@ -16,7 +16,7 @@ from scipy.signal import correlate
 class Config:
     """Global configuration settings."""
 
-    DATA_FOLDER = Path("data")
+    DATA_FOLDER = Path("data/anonymized")
     OUTPUT_FOLDER = Path("sleep_analysis_output")
     PLOTS_SUBFOLDER = "event_plots"
     ANALYSIS_FILE = "analysis_report.txt"
@@ -1289,6 +1289,11 @@ def analyze_time_series_correlation(
     ).set_index("time")
 
     # Resample to 1-min intervals and align
+    # Ensure unique index by aggregating duplicates (e.g., mean)
+    spo2_df = spo2_df.groupby(spo2_df.index).mean()
+    hr_df = hr_df.groupby(hr_df.index).mean()
+    resp_df = resp_df.groupby(resp_df.index).mean()
+
     df = pd.concat([spo2_df, hr_df, resp_df], axis=1)
     df = df.resample("1T").mean().interpolate()
     df = df.dropna()  # Only keep rows where all three are present
