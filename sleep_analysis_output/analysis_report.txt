@@ -3872,6 +3872,26 @@ resp  0.12  0.30  1.00
   Average HR change during daily events: N/A
   Average HR change after daily events: N/A
 
+--- Analysis for Date: 2025-06-01 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.14  0.10
+hr   -0.14  1.00  0.25
+resp  0.10  0.25  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.31  0.04
+hr   -0.31  1.00  0.12
+resp  0.04  0.12  1.00
+    Max cross-correlation spo2 vs resp: lag=-203 min, value=-1126.58
+    Max cross-correlation spo2 vs hr: lag=-274 min, value=417.06
+    Max cross-correlation hr vs resp: lag=110 min, value=-1434.32
+    Plots: 2025-06-01_pearson_corr.png, 2025-06-01_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
 
 [Event-Based HR/Resp Changes and Event Correlations]
   HR change (during - before): mean=-0.00, median=-0.10, std=2.49, n=104
@@ -3892,19 +3912,19 @@ Avg Min SpO2 / Event: 87.8%
 Overall Lowest SpO2: 75.0%
 Average Event Duration: 00:05:06
 Longest Event Duration: 00:52:00
-Average Baseline SpO2 (outside events): 94.5%
-Total Time in Deep Sleep: 47:19:00
-Total Time in Light Sleep: 161:52:37
-Total Time in REM Sleep: 48:43:24
-Total Time Awake: 09:20:00
-Total Sleep Time (Deep+Light+REM): 257:55:01
-Total Time in Bed: 991:21:30
-Sleep Efficiency: 26.0%
+Average Baseline SpO2 (outside events): 94.6%
+Total Time in Deep Sleep: 48:32:00
+Total Time in Light Sleep: 167:57:37
+Total Time in REM Sleep: 50:01:24
+Total Time Awake: 09:32:00
+Total Sleep Time (Deep+Light+REM): 266:31:01
+Total Time in Bed: 1016:33:19
+Sleep Efficiency: 26.2%
 
 Event Frequency by Sleep Stage:
-  Deep Sleep: 28 events, Rate: 0.59 events/hour
-  Light Sleep: 98 events, Rate: 0.61 events/hour
-  REM Sleep: 23 events, Rate: 0.47 events/hour
+  Deep Sleep: 28 events, Rate: 0.58 events/hour
+  Light Sleep: 98 events, Rate: 0.58 events/hour
+  REM Sleep: 23 events, Rate: 0.46 events/hour
   Awake Sleep: 2 events, Rate: 0.21 events/hour
 Oxygen Desaturation Index (ODI >= 4%): 0.3 events/hour
 Average HR change during event (vs. pre-event): -0.0 bpm
