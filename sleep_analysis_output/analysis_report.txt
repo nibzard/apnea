@@ -3892,14 +3892,886 @@ resp  0.04  0.12  1.00
     Plots: 2025-06-01_pearson_corr.png, 2025-06-01_spearman_corr.png, and cross-corr plots.
 
   Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-02 ---
+  Found 2 low SpO2 event(s).
+
+    Event 1:
+      Start Time (GMT): 2025-06-01 21:48:00
+      End Time (GMT):   2025-06-01 21:49:00
+      Duration:         00:01:00
+      Min SpO2:         88.0 %
+      Avg SpO2:         88.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 7.0 %
+      Duration (min):   1.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 21:48:00: 88.0 % (Conf: 2.0)
+      Sleep Stage:      Light
+      ODI Event:        No
+
+      Plot generated: 2025-06-02_event_1.png
+
+    Event 2:
+      Start Time (GMT): 2025-06-01 21:52:00
+      End Time (GMT):   2025-06-01 21:53:00
+      Duration:         00:01:00
+      Min SpO2:         89.0 %
+      Avg SpO2:         89.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 6.0 %
+      Duration (min):   1.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 21:52:00: 89.0 % (Conf: 3.0)
+      Sleep Stage:      Light
+      ODI Event:        No
+
+      Plot generated: 2025-06-02_event_2.png
+
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.07 -0.19
+hr   -0.07  1.00 -0.01
+resp -0.19 -0.01  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.06 -0.18
+hr   -0.06  1.00 -0.08
+resp -0.18 -0.08  1.00
+    Max cross-correlation spo2 vs resp: lag=-148 min, value=224.45
+    Max cross-correlation spo2 vs hr: lag=-29 min, value=290.76
+    Max cross-correlation hr vs resp: lag=-44 min, value=-497.34
+    Plots: 2025-06-02_pearson_corr.png, 2025-06-02_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+  Average HR change during daily events: -0.2 bpm
+  Average HR change after daily events: -2.2 bpm
+
+--- Analysis for Date: 2025-06-03 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.12  0.03
+hr   -0.12  1.00  0.12
+resp  0.03  0.12  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2   1.0 -0.10  0.10
+hr    -0.1  1.00  0.08
+resp   0.1  0.08  1.00
+    Max cross-correlation spo2 vs resp: lag=110 min, value=-148.83
+    Max cross-correlation spo2 vs hr: lag=-111 min, value=-410.81
+    Max cross-correlation hr vs resp: lag=36 min, value=-531.45
+    Plots: 2025-06-03_pearson_corr.png, 2025-06-03_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-04 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.53 -0.26
+hr   -0.53  1.00  0.19
+resp -0.26  0.19  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.46 -0.27
+hr   -0.46  1.00  0.13
+resp -0.27  0.13  1.00
+    Max cross-correlation spo2 vs resp: lag=252 min, value=-265.49
+    Max cross-correlation spo2 vs hr: lag=2 min, value=-768.38
+    Max cross-correlation hr vs resp: lag=72 min, value=-631.24
+    Plots: 2025-06-04_pearson_corr.png, 2025-06-04_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-05 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.04 -0.05
+hr    0.04  1.00  0.06
+resp -0.05  0.06  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.05 -0.01
+hr    0.05  1.00 -0.02
+resp -0.01 -0.02  1.00
+    Max cross-correlation spo2 vs resp: lag=35 min, value=414.40
+    Max cross-correlation spo2 vs hr: lag=-110 min, value=592.58
+    Max cross-correlation hr vs resp: lag=-321 min, value=603.59
+    Plots: 2025-06-05_pearson_corr.png, 2025-06-05_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-06 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.20 -0.26
+hr   -0.20  1.00  0.26
+resp -0.26  0.26  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.17 -0.25
+hr   -0.17  1.00  0.18
+resp -0.25  0.18  1.00
+    Max cross-correlation spo2 vs resp: lag=-252 min, value=394.63
+    Max cross-correlation spo2 vs hr: lag=-9 min, value=-370.93
+    Max cross-correlation hr vs resp: lag=125 min, value=-700.35
+    Plots: 2025-06-06_pearson_corr.png, 2025-06-06_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-07 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.13 -0.37
+hr   -0.13  1.00  0.04
+resp -0.37  0.04  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.31 -0.35
+hr   -0.31  1.00  0.27
+resp -0.35  0.27  1.00
+    Max cross-correlation spo2 vs resp: lag=1 min, value=-295.50
+    Max cross-correlation spo2 vs hr: lag=5 min, value=-339.76
+    Max cross-correlation hr vs resp: lag=-64 min, value=-754.59
+    Plots: 2025-06-07_pearson_corr.png, 2025-06-07_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-08 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.08  0.01
+hr   -0.08  1.00 -0.00
+resp  0.01 -0.00  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.09  0.05
+hr   -0.09  1.00 -0.03
+resp  0.05 -0.03  1.00
+    Max cross-correlation spo2 vs resp: lag=-58 min, value=270.85
+    Max cross-correlation spo2 vs hr: lag=-151 min, value=303.78
+    Max cross-correlation hr vs resp: lag=32 min, value=-378.85
+    Plots: 2025-06-08_pearson_corr.png, 2025-06-08_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-09 ---
+  No low SpO2 events detected.
+
+  [Correlation analysis skipped: insufficient SpO2, HR, or Resp data.]
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-10 ---
+  No low SpO2 events detected.
+
+  [Correlation analysis skipped: insufficient SpO2, HR, or Resp data.]
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-11 ---
+  Found 3 low SpO2 event(s).
+
+    Event 1:
+      Start Time (GMT): 2025-06-10 22:40:00
+      End Time (GMT):   2025-06-10 22:41:00
+      Duration:         00:01:00
+      Min SpO2:         88.0 %
+      Avg SpO2:         88.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 7.0 %
+      Duration (min):   1.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 22:40:00: 88.0 % (Conf: 2.0)
+      Sleep Stage:      Light
+      ODI Event:        Yes
+
+      Plot generated: 2025-06-11_event_1.png
+
+    Event 2:
+      Start Time (GMT): 2025-06-10 22:46:00
+      End Time (GMT):   2025-06-10 22:49:00
+      Duration:         00:03:00
+      Min SpO2:         86.0 %
+      Avg SpO2:         87.7 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 9.0 %
+      Duration (min):   3.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 22:46:00: 89.0 % (Conf: 2.0)
+        - 22:47:00: 86.0 % (Conf: 2.0)
+        - 22:48:00: 88.0 % (Conf: 2.0)
+      Sleep Stage:      Light
+      ODI Event:        Yes
+
+      Plot generated: 2025-06-11_event_2.png
+
+    Event 3:
+      Start Time (GMT): 2025-06-10 22:54:00
+      End Time (GMT):   2025-06-10 23:21:00
+      Duration:         00:27:00
+      Min SpO2:         84.0 %
+      Avg SpO2:         86.0 %
+      Severity:         Moderate
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 11.0 %
+      Duration (min):   27.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 22:54:00: 89.0 % (Conf: 2.0)
+        - 22:55:00: 88.0 % (Conf: 2.0)
+        - 22:56:00: 84.0 % (Conf: 2.0)
+        - 22:57:00: 87.0 % (Conf: 2.0)
+        - 22:58:00: 84.0 % (Conf: 2.0)
+        - 22:59:00: 86.0 % (Conf: 3.0)
+        - 23:00:00: 88.0 % (Conf: 3.0)
+        - 23:01:00: 87.0 % (Conf: 2.0)
+        - 23:02:00: 85.0 % (Conf: 3.0)
+        - 23:03:00: 85.0 % (Conf: 2.0)
+        - 23:04:00: 87.0 % (Conf: 3.0)
+        - 23:05:00: 84.0 % (Conf: 2.0)
+        - 23:06:00: 86.0 % (Conf: 4.0)
+        - 23:07:00: 87.0 % (Conf: 2.0)
+        - 23:08:00: 85.0 % (Conf: 3.0)
+        - 23:09:00: 85.0 % (Conf: 2.0)
+        - 23:10:00: 86.0 % (Conf: 3.0)
+        - 23:11:00: 85.0 % (Conf: 2.0)
+        - 23:12:00: 87.0 % (Conf: 3.0)
+        - 23:15:00: 86.0 % (Conf: 2.0)
+        - 23:16:00: 84.0 % (Conf: 2.0)
+        - 23:17:00: 84.0 % (Conf: 3.0)
+        - 23:18:00: 84.0 % (Conf: 3.0)
+        - 23:19:00: 89.0 % (Conf: 3.0)
+        - 23:20:00: 88.0 % (Conf: 3.0)
+      Sleep Stage:      Light
+      ODI Event:        Yes
+
+      Plot generated: 2025-06-11_event_3.png
+
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.13  0.12
+hr    0.13  1.00  0.31
+resp  0.12  0.31  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.14 -0.06
+hr    0.14  1.00  0.29
+resp -0.06  0.29  1.00
+    Max cross-correlation spo2 vs resp: lag=-197 min, value=-559.48
+    Max cross-correlation spo2 vs hr: lag=-28 min, value=909.41
+    Max cross-correlation hr vs resp: lag=2 min, value=688.93
+    Plots: 2025-06-11_pearson_corr.png, 2025-06-11_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 3
+  Average HR change during daily events: +0.0 bpm
+  Average HR change after daily events: -1.7 bpm
+
+--- Analysis for Date: 2025-06-12 ---
+  Found 4 low SpO2 event(s).
+
+    Event 1:
+      Start Time (GMT): 2025-06-11 22:57:00
+      End Time (GMT):   2025-06-11 23:00:00
+      Duration:         00:03:00
+      Min SpO2:         87.0 %
+      Avg SpO2:         88.3 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 8.0 %
+      Duration (min):   3.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 22:57:00: 89.0 % (Conf: 2.0)
+        - 22:58:00: 89.0 % (Conf: 2.0)
+        - 22:59:00: 87.0 % (Conf: 3.0)
+      Sleep Stage:      Light
+      ODI Event:        Yes
+
+      Plot generated: 2025-06-12_event_1.png
+
+    Event 2:
+      Start Time (GMT): 2025-06-11 23:06:00
+      End Time (GMT):   2025-06-11 23:11:00
+      Duration:         00:05:00
+      Min SpO2:         86.0 %
+      Avg SpO2:         87.2 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 9.0 %
+      Duration (min):   5.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 23:06:00: 87.0 % (Conf: 2.0)
+        - 23:07:00: 88.0 % (Conf: 2.0)
+        - 23:08:00: 86.0 % (Conf: 2.0)
+        - 23:10:00: 88.0 % (Conf: 2.0)
+      Sleep Stage:      Light
+      ODI Event:        Yes
+
+      Plot generated: 2025-06-12_event_2.png
+
+    Event 3:
+      Start Time (GMT): 2025-06-11 23:16:00
+      End Time (GMT):   2025-06-11 23:17:00
+      Duration:         00:01:00
+      Min SpO2:         88.0 %
+      Avg SpO2:         88.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 7.0 %
+      Duration (min):   1.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 23:16:00: 88.0 % (Conf: 2.0)
+      Sleep Stage:      Light
+      ODI Event:        No
+
+      Plot generated: 2025-06-12_event_3.png
+
+    Event 4:
+      Start Time (GMT): 2025-06-11 23:28:00
+      End Time (GMT):   2025-06-11 23:29:00
+      Duration:         00:01:00
+      Min SpO2:         89.0 %
+      Avg SpO2:         89.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 6.0 %
+      Duration (min):   1.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 23:28:00: 89.0 % (Conf: 2.0)
+      Sleep Stage:      Light
+      ODI Event:        No
+
+      Plot generated: 2025-06-12_event_4.png
+
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.15  0.12
+hr    0.15  1.00  0.04
+resp  0.12  0.04  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.15  0.17
+hr    0.15  1.00  0.03
+resp  0.17  0.03  1.00
+    Max cross-correlation spo2 vs resp: lag=208 min, value=562.78
+    Max cross-correlation spo2 vs hr: lag=82 min, value=1001.54
+    Max cross-correlation hr vs resp: lag=126 min, value=952.43
+    Plots: 2025-06-12_pearson_corr.png, 2025-06-12_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 2
+  Average HR change during daily events: -0.6 bpm
+  Average HR change after daily events: +0.3 bpm
+
+--- Analysis for Date: 2025-06-13 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.02 -0.46
+hr   -0.02  1.00  0.34
+resp -0.46  0.34  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.00 -0.35
+hr    0.00  1.00  0.35
+resp -0.35  0.35  1.00
+    Max cross-correlation spo2 vs resp: lag=-4 min, value=-644.48
+    Max cross-correlation spo2 vs hr: lag=-63 min, value=-694.33
+    Max cross-correlation hr vs resp: lag=2 min, value=1083.46
+    Plots: 2025-06-13_pearson_corr.png, 2025-06-13_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-14 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.05  0.15
+hr    0.05  1.00  0.25
+resp  0.15  0.25  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.04  0.08
+hr    0.04  1.00  0.30
+resp  0.08  0.30  1.00
+    Max cross-correlation spo2 vs resp: lag=100 min, value=-512.60
+    Max cross-correlation spo2 vs hr: lag=36 min, value=-778.37
+    Max cross-correlation hr vs resp: lag=130 min, value=-846.29
+    Plots: 2025-06-14_pearson_corr.png, 2025-06-14_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-15 ---
+  Found 1 low SpO2 event(s).
+
+    Event 1:
+      Start Time (GMT): 2025-06-14 21:15:00
+      End Time (GMT):   2025-06-14 21:16:00
+      Duration:         00:01:00
+      Min SpO2:         89.0 %
+      Avg SpO2:         89.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 6.0 %
+      Duration (min):   1.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 21:15:00: 89.0 % (Conf: 2.0)
+      Sleep Stage:      Deep
+      ODI Event:        Yes
+
+      Plot generated: 2025-06-15_event_1.png
+
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.21  0.01
+hr   -0.21  1.00  0.10
+resp  0.01  0.10  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.32  0.06
+hr   -0.32  1.00  0.35
+resp  0.06  0.35  1.00
+    Max cross-correlation spo2 vs resp: lag=-163 min, value=475.66
+    Max cross-correlation spo2 vs hr: lag=-256 min, value=684.34
+    Max cross-correlation hr vs resp: lag=9 min, value=1167.98
+    Plots: 2025-06-15_pearson_corr.png, 2025-06-15_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 1
+  Average HR change during daily events: N/A
+  Average HR change after daily events: N/A
+
+--- Analysis for Date: 2025-06-16 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.35  0.06
+hr    0.35  1.00  0.37
+resp  0.06  0.37  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.34  0.07
+hr    0.34  1.00  0.31
+resp  0.07  0.31  1.00
+    Max cross-correlation spo2 vs resp: lag=-19 min, value=193.39
+    Max cross-correlation spo2 vs hr: lag=2 min, value=608.17
+    Max cross-correlation hr vs resp: lag=2 min, value=772.84
+    Plots: 2025-06-16_pearson_corr.png, 2025-06-16_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-17 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.29 -0.20
+hr   -0.29  1.00  0.23
+resp -0.20  0.23  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.32 -0.22
+hr   -0.32  1.00  0.36
+resp -0.22  0.36  1.00
+    Max cross-correlation spo2 vs resp: lag=-5 min, value=-282.50
+    Max cross-correlation spo2 vs hr: lag=4 min, value=-605.05
+    Max cross-correlation hr vs resp: lag=6 min, value=1473.15
+    Plots: 2025-06-17_pearson_corr.png, 2025-06-17_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-18 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.19  0.13
+hr   -0.19  1.00 -0.11
+resp  0.13 -0.11  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.16  0.10
+hr   -0.16  1.00  0.25
+resp  0.10  0.25  1.00
+    Max cross-correlation spo2 vs resp: lag=-72 min, value=594.90
+    Max cross-correlation spo2 vs hr: lag=101 min, value=-821.28
+    Max cross-correlation hr vs resp: lag=-94 min, value=1351.46
+    Plots: 2025-06-18_pearson_corr.png, 2025-06-18_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-19 ---
+  Found 2 low SpO2 event(s).
+
+    Event 1:
+      Start Time (GMT): 2025-06-18 23:29:00
+      End Time (GMT):   2025-06-18 23:32:00
+      Duration:         00:03:00
+      Min SpO2:         88.0 %
+      Avg SpO2:         88.7 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 7.0 %
+      Duration (min):   3.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 23:29:00: 89.0 % (Conf: 3.0)
+        - 23:30:00: 89.0 % (Conf: 3.0)
+        - 23:31:00: 88.0 % (Conf: 5.0)
+      Sleep Stage:      REM
+      ODI Event:        Yes
+
+      Plot generated: 2025-06-19_event_1.png
+
+    Event 2:
+      Start Time (GMT): 2025-06-19 03:22:00
+      End Time (GMT):   2025-06-19 03:23:00
+      Duration:         00:01:00
+      Min SpO2:         89.0 %
+      Avg SpO2:         89.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 6.0 %
+      Duration (min):   1.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 03:22:00: 89.0 % (Conf: 4.0)
+      Sleep Stage:      Light
+      ODI Event:        No
+
+      Plot generated: 2025-06-19_event_2.png
+
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.12 -0.31
+hr    0.12  1.00  0.26
+resp -0.31  0.26  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.04 -0.23
+hr    0.04  1.00  0.53
+resp -0.23  0.53  1.00
+    Max cross-correlation spo2 vs resp: lag=103 min, value=1755.49
+    Max cross-correlation spo2 vs hr: lag=91 min, value=1851.67
+    Max cross-correlation hr vs resp: lag=-177 min, value=-1772.30
+    Plots: 2025-06-19_pearson_corr.png, 2025-06-19_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 1
+  Average HR change during daily events: +0.2 bpm
+  Average HR change after daily events: -0.6 bpm
+
+--- Analysis for Date: 2025-06-20 ---
+  Found 1 low SpO2 event(s).
+
+    Event 1:
+      Start Time (GMT): 2025-06-20 01:42:00
+      End Time (GMT):   2025-06-20 01:44:00
+      Duration:         00:02:00
+      Min SpO2:         89.0 %
+      Avg SpO2:         89.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 6.0 %
+      Duration (min):   2.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 01:42:00: 89.0 % (Conf: 8.0)
+        - 01:43:00: 89.0 % (Conf: 8.0)
+      Sleep Stage:      REM
+      ODI Event:        No
+
+      Plot generated: 2025-06-20_event_1.png
+
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.25 -0.26
+hr   -0.25  1.00  0.50
+resp -0.26  0.50  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.19 -0.26
+hr   -0.19  1.00  0.50
+resp -0.26  0.50  1.00
+    Max cross-correlation spo2 vs resp: lag=-4 min, value=-350.35
+    Max cross-correlation spo2 vs hr: lag=13 min, value=-487.45
+    Max cross-correlation hr vs resp: lag=2 min, value=1507.34
+    Plots: 2025-06-20_pearson_corr.png, 2025-06-20_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+  Average HR change during daily events: +4.0 bpm
+  Average HR change after daily events: -7.0 bpm
+
+--- Analysis for Date: 2025-06-21 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.16 -0.21
+hr    0.16  1.00 -0.05
+resp -0.21 -0.05  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.03 -0.19
+hr    0.03  1.00  0.16
+resp -0.19  0.16  1.00
+    Max cross-correlation spo2 vs resp: lag=-92 min, value=333.76
+    Max cross-correlation spo2 vs hr: lag=-87 min, value=-801.15
+    Max cross-correlation hr vs resp: lag=124 min, value=793.34
+    Plots: 2025-06-21_pearson_corr.png, 2025-06-21_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-22 ---
+  Found 2 low SpO2 event(s).
+
+    Event 1:
+      Start Time (GMT): 2025-06-21 22:55:00
+      End Time (GMT):   2025-06-21 22:56:00
+      Duration:         00:01:00
+      Min SpO2:         89.0 %
+      Avg SpO2:         89.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 6.0 %
+      Duration (min):   1.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 22:55:00: 89.0 % (Conf: 2.0)
+      Sleep Stage:      Light
+      ODI Event:        No
+
+      Plot generated: 2025-06-22_event_1.png
+
+    Event 2:
+      Start Time (GMT): 2025-06-22 03:31:00
+      End Time (GMT):   2025-06-22 03:32:00
+      Duration:         00:01:00
+      Min SpO2:         88.0 %
+      Avg SpO2:         88.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 7.0 %
+      Duration (min):   1.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 03:31:00: 88.0 % (Conf: 6.0)
+      Sleep Stage:      Awake
+      ODI Event:        Yes
+
+      Plot generated: 2025-06-22_event_2.png
+
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.11  0.06
+hr    0.11  1.00 -0.21
+resp  0.06 -0.21  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.19  0.11
+hr    0.19  1.00  0.19
+resp  0.11  0.19  1.00
+    Max cross-correlation spo2 vs resp: lag=-53 min, value=-802.44
+    Max cross-correlation spo2 vs hr: lag=-147 min, value=712.84
+    Max cross-correlation hr vs resp: lag=-98 min, value=-1244.24
+    Plots: 2025-06-22_pearson_corr.png, 2025-06-22_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 1
+  Average HR change during daily events: N/A
+  Average HR change after daily events: N/A
+
+--- Analysis for Date: 2025-06-23 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.23  0.06
+hr   -0.23  1.00 -0.21
+resp  0.06 -0.21  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.22 -0.01
+hr   -0.22  1.00  0.12
+resp -0.01  0.12  1.00
+    Max cross-correlation spo2 vs resp: lag=116 min, value=-540.72
+    Max cross-correlation spo2 vs hr: lag=-3 min, value=-525.60
+    Max cross-correlation hr vs resp: lag=2 min, value=-985.41
+    Plots: 2025-06-23_pearson_corr.png, 2025-06-23_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-24 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.13 -0.24
+hr   -0.13  1.00  0.24
+resp -0.24  0.24  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.20 -0.26
+hr   -0.20  1.00  0.22
+resp -0.26  0.22  1.00
+    Max cross-correlation spo2 vs resp: lag=-91 min, value=303.61
+    Max cross-correlation spo2 vs hr: lag=-128 min, value=-548.69
+    Max cross-correlation hr vs resp: lag=-74 min, value=-470.77
+    Plots: 2025-06-24_pearson_corr.png, 2025-06-24_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-25 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.28 -0.11
+hr    0.28  1.00  0.12
+resp -0.11  0.12  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00  0.31 -0.14
+hr    0.31  1.00 -0.02
+resp -0.14 -0.02  1.00
+    Max cross-correlation spo2 vs resp: lag=-40 min, value=-165.86
+    Max cross-correlation spo2 vs hr: lag=1 min, value=207.38
+    Max cross-correlation hr vs resp: lag=116 min, value=316.71
+    Plots: 2025-06-25_pearson_corr.png, 2025-06-25_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-26 ---
+  No low SpO2 events detected.
+
+  [Correlation analysis skipped: insufficient SpO2, HR, or Resp data.]
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-27 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.24  -0.4
+hr   -0.24  1.00   0.3
+resp -0.40  0.30   1.0
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.17 -0.41
+hr   -0.17  1.00  0.29
+resp -0.41  0.29  1.00
+    Max cross-correlation spo2 vs resp: lag=-4 min, value=-350.01
+    Max cross-correlation spo2 vs hr: lag=61 min, value=408.91
+    Max cross-correlation hr vs resp: lag=3 min, value=517.18
+    Plots: 2025-06-27_pearson_corr.png, 2025-06-27_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
+--- Analysis for Date: 2025-06-28 ---
+  Found 2 low SpO2 event(s).
+
+    Event 1:
+      Start Time (GMT): 2025-06-28 03:50:00
+      End Time (GMT):   2025-06-28 03:52:00
+      Duration:         00:02:00
+      Min SpO2:         89.0 %
+      Avg SpO2:         89.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 6.0 %
+      Duration (min):   2.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 03:50:00: 89.0 % (Conf: 3.0)
+        - 03:51:00: 89.0 % (Conf: 3.0)
+      Sleep Stage:      Awake
+      ODI Event:        Yes
+
+      Plot generated: 2025-06-28_event_1.png
+
+    Event 2:
+      Start Time (GMT): 2025-06-28 03:55:00
+      End Time (GMT):   2025-06-28 03:57:00
+      Duration:         00:02:00
+      Min SpO2:         87.0 %
+      Avg SpO2:         88.0 %
+      Severity:         Mild
+      Baseline SpO2:    95.0 %
+      Max Desaturation: 8.0 %
+      Duration (min):   2.0 min
+      SpO2 Readings (Time, Value, Confidence):
+        - 03:55:00: 89.0 % (Conf: 3.0)
+        - 03:56:00: 87.0 % (Conf: 9.0)
+      Sleep Stage:      Awake
+      ODI Event:        Yes
+
+      Plot generated: 2025-06-28_event_2.png
+
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.20 -0.16
+hr   -0.20  1.00 -0.17
+resp -0.16 -0.17  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.19 -0.26
+hr   -0.19  1.00 -0.06
+resp -0.26 -0.06  1.00
+    Max cross-correlation spo2 vs resp: lag=-28 min, value=-409.87
+    Max cross-correlation spo2 vs hr: lag=3 min, value=-595.83
+    Max cross-correlation hr vs resp: lag=-79 min, value=-635.08
+    Plots: 2025-06-28_pearson_corr.png, 2025-06-28_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 2
+  Average HR change during daily events: -3.9 bpm
+  Average HR change after daily events: -0.6 bpm
+
+--- Analysis for Date: 2025-06-29 ---
+  No low SpO2 events detected.
+
+  [Time Series Correlation Analysis]
+    Pearson Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.14  0.04
+hr   -0.14  1.00  0.48
+resp  0.04  0.48  1.00
+    Spearman Correlation Matrix:
+      spo2    hr  resp
+spo2  1.00 -0.22  0.06
+hr   -0.22  1.00  0.55
+resp  0.06  0.55  1.00
+    Max cross-correlation spo2 vs resp: lag=-56 min, value=133.10
+    Max cross-correlation spo2 vs hr: lag=-62 min, value=305.15
+    Max cross-correlation hr vs resp: lag=2 min, value=1064.07
+    Plots: 2025-06-29_pearson_corr.png, 2025-06-29_spearman_corr.png, and cross-corr plots.
+
+  Daily ODI Events (Desaturation >= 4%): 0
 
 [Event-Based HR/Resp Changes and Event Correlations]
-  HR change (during - before): mean=-0.00, median=-0.10, std=2.49, n=104
-  HR change (after - during): mean=-0.22, median=+0.00, std=2.46, n=104
-  Resp change (during - before): mean=-0.05, median=-0.22, std=2.27, n=104
-  Resp change (after - during): mean=+0.17, median=+0.45, std=1.97, n=104
-  Event SpO2-HR corr: mean=-0.13, median=-0.09, std=0.46, n=31
-  Event SpO2-Resp corr: mean=-0.02, median=-0.04, std=0.55, n=32
+  HR change (during - before): mean=-0.05, median=-0.27, std=2.47, n=118
+  HR change (after - during): mean=-0.34, median=+0.00, std=2.51, n=118
+  Resp change (during - before): mean=-0.00, median=-0.12, std=2.25, n=118
+  Resp change (after - during): mean=+0.15, median=+0.45, std=1.93, n=118
+  Event SpO2-HR corr: mean=-0.14, median=-0.10, std=0.45, n=32
+  Event SpO2-Resp corr: mean=+0.01, median=+0.00, std=0.55, n=34
 
 
 ========================================
@@ -3907,29 +4779,29 @@ Overall Dataset Summary
 ========================================
 
 # Overall Sleep and Event Statistics
-Total Low SpO2 Events: 151
+Total Low SpO2 Events: 168
 Avg Min SpO2 / Event: 87.8%
 Overall Lowest SpO2: 75.0%
-Average Event Duration: 00:05:06
+Average Event Duration: 00:04:55
 Longest Event Duration: 00:52:00
 Average Baseline SpO2 (outside events): 94.6%
-Total Time in Deep Sleep: 48:32:00
-Total Time in Light Sleep: 167:57:37
-Total Time in REM Sleep: 50:01:24
-Total Time Awake: 09:32:00
-Total Sleep Time (Deep+Light+REM): 266:31:01
-Total Time in Bed: 1016:33:19
-Sleep Efficiency: 26.2%
+Total Time in Deep Sleep: 82:19:00
+Total Time in Light Sleep: 282:06:37
+Total Time in REM Sleep: 89:59:24
+Total Time Awake: 17:33:00
+Total Sleep Time (Deep+Light+REM): 454:25:01
+Total Time in Bed: 1686:53:30
+Sleep Efficiency: 26.9%
 
 Event Frequency by Sleep Stage:
-  Deep Sleep: 28 events, Rate: 0.58 events/hour
-  Light Sleep: 98 events, Rate: 0.58 events/hour
-  REM Sleep: 23 events, Rate: 0.46 events/hour
-  Awake Sleep: 2 events, Rate: 0.21 events/hour
-Oxygen Desaturation Index (ODI >= 4%): 0.3 events/hour
-Average HR change during event (vs. pre-event): -0.0 bpm
-Average HR change after event (vs. during event): -0.2 bpm
-Average Inter-Event Interval (on nights with >1 event): 00:32:33
+  Deep Sleep: 29 events, Rate: 0.35 events/hour
+  Light Sleep: 109 events, Rate: 0.39 events/hour
+  REM Sleep: 25 events, Rate: 0.28 events/hour
+  Awake Sleep: 5 events, Rate: 0.28 events/hour
+Oxygen Desaturation Index (ODI >= 4%): 0.2 events/hour
+Average HR change during event (vs. pre-event): -0.1 bpm
+Average HR change after event (vs. during event): -0.3 bpm
+Average Inter-Event Interval (on nights with >1 event): 00:34:27
 Percentage of Low SpO2 Events with Potential Respiratory Pauses: 0.0%
   Plot: _overall_min_spo2_distribution.png
   Plot: _overall_event_duration_distribution.png
@@ -3938,6 +4810,6 @@ Percentage of Low SpO2 Events with Potential Respiratory Pauses: 0.0%
 Temporal Trends Over Study Period:
   Plot (Daily Event Counts): _temporal_event_counts.png
   Plot (Daily Avg Min SpO2): _temporal_avg_min_spo2.png
-Average SpO2 (All Valid Readings): 94.2%
-Average SpO2 (During Sleep Periods): 94.2%
+Average SpO2 (All Valid Readings): 94.4%
+Average SpO2 (During Sleep Periods): 94.4%
 Average SpO2 (During Awake Periods): 94.6%

@@ -680,13 +680,13 @@ def analyze_sleep_data(
     logger.info(f"Processing sleep data for date: {calendar_date}")
 
     # Extract all required data arrays from root level
-    spo2_epochs_raw = data.get("wellnessEpochSPO2DataDTOList", [])
-    hr_raw = data.get("sleepHeartRate", [])
-    resp_raw = data.get("wellnessEpochRespirationDataDTOList", [])
-    sleep_levels_raw = data.get("sleepLevels", [])
-    movement_raw = data.get("sleepMovement", [])
-    stress_raw = data.get("sleepStress", [])
-    hrv_raw = data.get("hrvData", [])
+    spo2_epochs_raw = data.get("wellnessEpochSPO2DataDTOList") or []
+    hr_raw = data.get("sleepHeartRate") or []
+    resp_raw = data.get("wellnessEpochRespirationDataDTOList") or []
+    sleep_levels_raw = data.get("sleepLevels") or []
+    movement_raw = data.get("sleepMovement") or []
+    stress_raw = data.get("sleepStress") or []
+    hrv_raw = data.get("hrvData") or []
 
     # Log data availability
     logger.debug("Found data arrays:")
